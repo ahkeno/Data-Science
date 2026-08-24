@@ -38,28 +38,53 @@ Or with a requirements file (if provided):
 
 pip install -r requirements.txt
 
-## Usage
+## 📊 Dataset
 
-1. Open the demo notebook:
+The dataset used in this project is:
 
-   jupyter lab notebooks/01-kmeans-demo.ipynb
+Dataset for K-Means Clustering
 
-2. Or run the clustering script (example):
+Source: Kaggle — https://www.kaggle.com/datasets/mitgandhi10/dataset-for-kmeans-clustering
 
-   python scripts/run_kmeans.py --data data/dataset.csv --k 3 --output results/
+The dataset contains customer behavioural variables that can be used to explore customer segments.
 
-3. Inspect plots in `results/` or open the notebook outputs.
+Note: The dataset is used for learning and experimentation. Please refer to the original Kaggle dataset for the original data source and licensing information.
 
-## Notes and tips
+## 🛠️ Tools & Technologies
 
-- Scale your features (e.g., StandardScaler) before applying k-means for better results.
-- Try multiple random initializations (`n_init`) and examine inertia and silhouette scores to choose K.
-- For high-dimensional data consider dimensionality reduction (PCA or t-SNE) for visualization.
+Python
+Jupyter Notebook
+Pandas
+NumPy
+Matplotlib
+Scikit-learn
+GitHub
+🔬 Methodology
 
-## References
+The analysis follows these steps:
 
-- scikit-learn clustering documentation: https://scikit-learn.org/stable/modules/clustering.html
+Load the dataset
+Explore and understand the data
+Check data quality and missing values
+Select relevant features
+Standardize the features
+Apply K-Means clustering
+Determine an appropriate number of clusters using the Elbow Method
+Evaluate clustering using Silhouette Score
+Visualize the resulting clusters
+Profile and interpret the customer segments
 
----
+## 📈 Key Concepts
 
-Edit this README to reflect the exact files and scripts in this folder. If you want, I can create the demo notebook or example script next.
+This project helps me understand:
+
+Unsupervised learning
+K-Means clustering
+Centroids
+Distance-based clustering
+Feature scaling
+Inertia
+Elbow Method
+Silhouette Score
+Customer segmentation
+Cluster interpretation
