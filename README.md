@@ -12,6 +12,10 @@ The repository contains hands-on experiments, Jupyter Notebooks, visualizations,
 - models/           — saved model artifacts
 - reports/          — generated reports, figures, and summaries
 
+## 📚 Topics
+- Unsupervised Learning
+- K-Means Clustering
+
 ## Getting started
 
 1. Clone the repository:
