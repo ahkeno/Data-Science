@@ -1,6 +1,8 @@
 # Data-Science
 
-This repository contains data science projects, experiments, and supporting materials created by the repository owner. It is a place to store Jupyter notebooks, Python/R scripts, datasets (or dataset links), and analysis results.
+This repository documents my practical learning and research journey in Data Science, Machine Learning, and Artificial Intelligence.
+
+The repository contains hands-on experiments, Jupyter Notebooks, visualizations, and notes covering different data science methods and their potential applications
 
 ## Repository structure
 
