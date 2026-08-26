@@ -6,15 +6,17 @@ The repository contains hands-on experiments, Jupyter Notebooks, visualizations,
 
 ## Repository structure
 
-- notebooks/        — Jupyter notebooks and exploratory analyses
-- scripts/          — standalone scripts and utilities
-- data/             — datasets or links to large datasets (do not commit large binary data)
-- models/           — saved model artifacts
-- reports/          — generated reports, figures, and summaries
+- notebooks/ — Jupyter notebooks and exploratory analyses
+- scripts/ — standalone scripts and utilities
+- data/ — datasets or links to large datasets (do not commit large binary data)
+- models/ — saved model artifacts
+- reports/ — generated reports, figures, and summaries
 
 ## 📚 Topics
+
 - Unsupervised Learning
 - K-Means Clustering
+- Hierarchical-Clustering
 
 ## Getting started
 
@@ -25,7 +27,7 @@ The repository contains hands-on experiments, Jupyter Notebooks, visualizations,
 2. Create a virtual environment and install dependencies (example for Python projects):
 
    python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   source .venv/bin/activate # On Windows: .venv\Scripts\activate
    pip install -r requirements.txt
 
 3. Open the relevant notebook from the `notebooks/` directory or run scripts from `scripts/`.
@@ -40,4 +42,4 @@ Specify a license in `LICENSE` if you want to make the repository open-source. I
 
 ---
 
-*This README was added by GitHub Copilot on request. Edit to match the specific contents of the repository.*
+_This README was added by GitHub Copilot on request. Edit to match the specific contents of the repository._
